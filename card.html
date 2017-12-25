@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="card">
+		<!-- your favorite animal's name goes here -->
+		<h3 id="title" style="display: inline-block;">Cheetah</h3>
+		<input id="input1" type="text"><br>
+
+		<!-- your favorite animal's image goes here -->
+		<img src="img/cheetah1.jpg" alt="Cheetah">
+		<button id="btn1"> Display/ Hide Image </button>
+		<div class="info-section">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p class="fact">The cheetah is the world’s fastest land animal. They can run 70 mph (or 110 kph), which is as fast as cars drive on the highway. The cheetah can reach its top speed in just 3 seconds!</p>
+			<input id="input2" type="text"><br>
+			<button id="btn2"> Add Item at the top </button>
+			<button id="btn3"> Add Item at the bottom </button>
+			<ul id="main-list">
+				<!-- your favorite animal's list items go here -->
+				<li><span>Scientific name</span>: Acinonyx jubatus</li>
+				<li><span>Speed</span>: 110- 120 km/h</li>
+				<li><span>Mass:</span>: 21- 72 kg</li>
+				<li><span>Trophic level</span>: Carnivorous</li>
+			</ul>
+			<span> Counter: </span>
+			<span id="counter"></span>
+			<br><button id="btn4"> Delete Last Item </button> <br> <br>
+
+			<strong>Three Similar Animals: </strong>
+			<ul id="similar-animals">
+				<li><span>name</span>: Shark</li>
+				<li><span>name</span>: Whale</li>
+				<li><span>name</span>: Salmon</li>
+			</ul> <span id="type">Type: Fish</span>
+
+			<!-- your favorite animal's description goes here -->
+			<p>The cheetah is a large felid of the subfamily Felinae that occurs mainly in eastern and southern Africa and a few parts of Iran. The only extant member of the genus Acinonyx, the cheetah was first described by Johann Christian Daniel von Schreber in 1775. The cheetah is characterised by a slender body, deep chest, spotted coat, a small rounded head, black tear-like streaks on the face, long thin legs and a long spotted tail.</p>
+			<button id="btn5"> Change border color </button>
+		</div>
+	</div>
+
+
+
+	<script src="js/jQuery.js"></script>
+  <script src="js/animal.js"></script>
+</body>
+</html>
